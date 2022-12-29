@@ -1,12 +1,12 @@
 body {
-  background-color: #434242;
+  background-color: #ffcba4;
   text-align: center;
   font-family: Arial, sans-serif;
   margin: 0;
 }
 
 .nav {
-  background-color: #45567d;
+  background-color: #434242;
   display: flex;
   position: fixed;
   top: 0;
@@ -38,7 +38,7 @@ body {
 }
 
 #navbar ul li:hover {
-  background: pink;
+  color: red;
 } 
 
 #welcome-section {
