@@ -1,3 +1,4 @@
-# npcodes1.github.io
+# This is my personal portfolio. 
 
-This is my GitHub Pages
+#### Check out my website at npcodes1.github.io.
+#### Projects were created through freeCodeCamp's responsive web design.
