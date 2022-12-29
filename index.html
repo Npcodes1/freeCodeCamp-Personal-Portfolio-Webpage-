@@ -2,21 +2,78 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Nicole Payne</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>
-          <a href="Home">Home</a>
-          <a href="About">About</a>
-          <a href="Projects">Projects</a>
-          <a href="Contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <p class="hello">Hello! My name is <span>Nicole Payne</span>.</p>
+    <!--navigation bar-->
+    <div class="nav">
+      <nav id="navbar">
+        <ul>
+          <li>
+            <a href="#About_Me">About Me</a>
+          </li>
+          <li>
+            <a href="#Work">Work</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--Welcome-section-->
+    <div class="welcome-section">
+      <section id="welcome-section">
+        <div class="intro">
+          <h1>I'm Nicole Payne</h1>
+          <img id="headshot" src="https://pbs.twimg.com/profile_images/1529228605036830720/6nfXLWFL_200x200.jpg" alt="Nicole's headshot">
+          <h2>Web developer-in-training</h2>
+        </div>
+      </section>
+    </div>
+  <!--Project section -->
+    <div class="project-section"> 
+      <section id="projects">
+        <h1 class="caption">These are my projects</h1>
+        <div class="projects-box">
+          <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page" target="_blank" id="profile-link">
+            <img class="project-tile" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="tribute-page-project">
+            <p class="project-title">Tribute Page</span></p>
+          </a>
+          <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form" target="_blank" id="profile-link">
+            <img class="project-tile" src="https://tse2.mm.bing.net/th?id=OIP.37vaUUkYg6OtWW_dcXiMXgHaEK&pid=Api&P=0" alt="survey-form-project">
+            <p class="project-title">Survey Form</p>
+          </a>
+          <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page" target="_blank" id="profile-link">
+            <img class="project-tile" src="https://tse2.mm.bing.net/th?id=OIP.Uc3RKWw-QImn0QvOZjgP8AHaEK&pid=Api&P=0" alt="product-landing-page-project">
+            <p class="project-title">Product Landing Page</p>         
+          </a>
+          <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page" target="_blank" id="profile-link">
+            <img class="project-tile" src="https://tse4.mm.bing.net/th?id=OIP.WR1e5hvVo3gTmzjIZP-2MgHaEK&pid=Api&P=0" alt="technical-documentation-page-project">
+            <p class="project-title">Technical Documentation</p>
+          </a>
+        </div>
+      </section>
+    </div>
+  <!--Contact section-->
+    <div class="contact-section">
+      <section id="contact">
+        <div class="contact-section-header">
+          <h2 class="contact-me">Let's Work Together!</h2>
+        </div>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/nicole-payne-60615343/" class="fa fa-linkedin"></a>
+          <a href="https://www.meetup.com/members/254427498/" class="fa fa-meetup"></a>
+          <a href="https://github.com/Npcodes1" class="fa fa-github"></a>
+        </div>
+      </section>
+    </div>
+  <!--Footer section -->
+    <footer>
+        <p class="create">Created for freeCodeCamp<span><img="fcc" class="fa fa-free-code-camp"><a></span></p>
+        <p class="copy">&copy; Copyright Free</p>
+    </footer>
   </body>
 </html>
