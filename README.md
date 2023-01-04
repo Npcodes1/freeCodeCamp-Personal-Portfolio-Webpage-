@@ -1,5 +1,3 @@
-# This is my personal portfolio. 
-
 ## freeCodeCamp-Personal-Portfolio-Webpage
 
 This is my personal portfolio site. It contains the projects I have completed through freeCodeCamp. I used HTML and CSS for all of them.
